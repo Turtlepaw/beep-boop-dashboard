@@ -18,13 +18,16 @@ export function Link(props: {
     className?: string;
     children: React.ReactNode;
     isExternal?: boolean;
+    textColor?: string;
+    underline?: 'always' | 'hover' | 'never';
 }) {
+    const underline = props?.underline || 'always';
     let icon: React.ReactNode;
     if(props.isExternal || (props.href.startsWith('http') || props.href.startsWith('https'))) {
         icon = <ExternalIcon />
     }
     return (
-        <a href={props.href} className={`LinkHref underline text-blue-500 ${props.className}`}>
+        <a href={props.href} className={`LinkHref ${underline == "always" ? "underline" : (underline == "hover" ? "hover:underline" : "")} ${props.textColor || "text-blue-500"} ${props.className}`}>
             {props.children}
             {icon}
         </a>

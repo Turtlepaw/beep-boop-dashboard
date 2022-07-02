@@ -12,7 +12,7 @@
     "@chakra-ui/react": "^2.2.1",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
-    "@headlessui/react": "^1.6.5",
+    "@headlessui/react": "^0.0.0-insiders.6253aa5",
     "@types/cookie": "^0.5.1",
     "@types/jsonwebtoken": "^8.5.8",
     "cookie": "^0.5.0",

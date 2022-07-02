@@ -1,5 +1,6 @@
 import { GetServerSideProps } from 'next';
 import { Html, Head, Main, NextScript } from 'next/document'
+import { Footer } from '../components/footer';
 import NavMenu from '../components/navMenu';
 import { parseUser } from '../utils/parse-user';
 import { DiscordUser } from '../utils/types';
@@ -20,6 +21,7 @@ export default function Document({ user }: Props) {
       <body>
         <NavMenu user={user}/>
         <Main />
+        <Footer/>
         <NextScript />
       </body>
     </Html>
