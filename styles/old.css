@@ -1,0 +1,379 @@
+/* Utils */
+
+.list, ol {
+    padding-left: 30%;
+}
+
+.dot {
+    padding-right: 2.5%;
+    padding-left: 0.5%;
+    display: inline;
+    border-radius: 100%;
+    background-color: #5865f2; 
+}
+
+.dotPadding {
+    display: inline;
+    padding-left: 0.5rem;
+}
+
+.smallCodeBlock {
+    display: inline;
+}
+
+.text-blurple {
+    color: #5865f2;
+}
+
+.text-extralarge {
+    font-size: 15rem;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #6c757d !important;
+}
+
+.text-light {
+    color: #afafaf !important;
+}
+
+.esSep {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+
+.icon.outbound {
+    position: relative;
+    display: inline-block;
+    color: #aaa;
+    vertical-align: middle;
+    top: -1px;
+}
+
+code, .codeblock { 
+    background-color: #2c2f33; 
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+li {
+    padding-bottom: 0.5rem;
+}
+
+.centerImage {
+    padding-top: 5%;
+}
+
+.smallSep {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.medSep {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.code {
+    overflow: auto;
+    border-radius: 4px;
+    background-color: #111111;
+    color: #cccccc;
+}
+
+/* Main page & Other */
+
+.faq {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.faqItem {
+    border-top-width: 0px !important;
+    padding-top: 2%;
+    border-bottom-width: 0px !important;
+}
+
+.faqText:hover {
+    background-color: #5865f2 !important;
+}
+
+.faqText {
+    background-color: #5865f2;
+    border-radius: 10px;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    padding-bottom: 2% !important;
+    padding-top: 2% !important;
+}
+
+.faqSmallText {
+    padding-top: 2% !important;
+}
+
+.horizonText {
+
+}
+
+.featureSep {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Nav Menu */
+
+.NavMenu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.NavMenuAvatarImg {
+    border-radius: 50%;
+    width: 40%;
+}
+
+.NavMenuAvatarImg2 {
+    border-radius: 50%;
+    width: 5%;
+}
+
+.avatarMargin {
+    margin-left: 5%;
+}
+
+.NavMenuAvatar {
+    width: 25%;
+    margin-left: 75%;
+}
+
+.NavMenuIcon {
+    border-radius: 50px;
+    display: inline;
+    width: 5%;
+    margin-right: 5%;
+}
+
+.NavMenuInline {
+    display: inline;
+}
+
+.NavMenuButton {
+    background-color: #5865f2;
+    width: 100px;
+    border-radius: 10px;
+}
+
+/* Utils */
+
+.LinkItem {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.centerMargin {
+    margin-top: 20%;
+}
+
+/* Guild Display */
+
+.guildIcon {
+    border-radius: 50%;
+    width: 7% !important;
+    margin-left: 46.5%;
+    margin-bottom: 2%;
+}
+
+.GuildImgStuff {
+    text-align: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.guildName {
+    display: inline;
+}
+
+.permissionText {
+    padding-top: 1%;
+}
+
+/* Guild Listing */
+
+.guild {
+    background-color: #41454c;
+    border-radius: 20px;
+    padding-top: 5%;
+}
+
+.outerGuild {
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.viewGuildBtn {
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.viewGuildSep {
+    padding-bottom: 5%;
+}
+
+.viewGuildText {
+    display: inline;
+}
+
+/* Settings */
+
+.settingCategory {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Features */
+
+.IconImage {
+    width: 50px;
+}
+
+.IconTitle {
+    font-weight: 900;
+    color: #5865f2;
+    font-size: 50px;
+}
+
+.text-left-stuff {
+    margin-left: 5%;
+}
+
+.text-right-stuff {
+    margin-left: 5%;
+}
+
+.IconDescription {
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+}
+
+.IconList {
+    padding-left: 50px; 
+    padding-right: 50px;
+    flex: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.featureGrey {
+    background-color: #41454c;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.featureNone {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.feature, .ofeature {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word;
+    padding: 3rem 2rem;
+}
+
+.img-size {
+    width: 50%;
+}
+
+/* SVG */
+
+.svg-small {
+    width: 20px;
+    height: 20px;
+}
+
+.svg-medium {
+    width: 30px;
+    height: 30px;
+}
+
+.svg-semiMedium {
+    width: 25px;
+    height: 25px;
+}
+
+.svg-semiLarge {
+    width: 35px;
+    height: 35px;
+}
+
+.svg-guildIcon {
+    width: 7%;
+    height: 7%;
+}
+
+.svg-large {
+    width: 40px;
+    height: 40px;
+}
+
+.svg-superLarge {
+    width: 100px;
+    height: 100px;
+}
+
+.svg-reallyLarge {
+    width: 70px;
+    height: 70px;
+}
+
+/* Footer */
+
+.footerColor {
+    background-color: #333439;
+}
+
+.footer {
+    padding-top: 10%;
+    /*padding-bottom: 10%;*/
+}
+
+.footerCategory {
+    margin-top: 1.5%;
+}
+
+.footerLink {
+    display: block;
+    font-weight: 450;
+}
+
+.bg-blurple {
+    background-color: #5865f2;
+}
+
+.LoginProvider {
+    padding-top: 5%;
+}
+
+.LoginProviderBox {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.LoginProviderImage {
+    padding-bottom: 2%;
+}
